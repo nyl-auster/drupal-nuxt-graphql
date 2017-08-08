@@ -1,8 +1,12 @@
 {
-  nodeQuery{
-    count
+  nodeQuery(filter: {type: "article"}) {
     entities {
       entityLabel
+      entityId
+      created
+      fieldImage
+      body
     }
+    count
   }
 }
