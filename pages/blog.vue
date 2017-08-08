@@ -16,7 +16,6 @@ import allPosts from '~/apollo/queries/allPosts'
 export default {
   apollo: {
     nodeQuery: {
-      prefetch: true,
       query: allPosts
     }
   }
