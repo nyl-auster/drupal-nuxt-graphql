@@ -1,0 +1,8 @@
+{
+  nodeQuery{
+    count
+    entities {
+      entityLabel
+    }
+  }
+}
