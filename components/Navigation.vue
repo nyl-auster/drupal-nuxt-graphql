@@ -8,3 +8,9 @@
   </nav>
 </template>
 
+<style scoped>
+ul li {
+  display: inline;
+  margin-left: 1rem;
+}
+</style>
